@@ -7,7 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 50px;
+}
+
+
+.splash {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+/*COMMENTING DEFAULT CODE*/
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
