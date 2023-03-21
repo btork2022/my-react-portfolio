@@ -1,11 +1,7 @@
-
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// 1. [ ] App
-//   2. [ ] Header
-//   4. [ ] Home
-//   5. [ ] Project Gallery
-//   6. [ ] Project
-//   7. [ ] Contact
+// Importing libraries and components
+import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Project from './pages/Project';
@@ -13,21 +9,38 @@ import Header from './components/Header';
 
 function App() {
   return (
+    // wrapping all in router component 
     <Router>
-      <div>
-          <Header/>
-          <Routes>
-             <Route path="/" element={<Home name={"Ben"} title={"Front-end Web Develper"}/>}/>
-             <Route path="/contact" element={<Contact/>}/>
-             <Route path="/project" element={<Project/>}/>
+      <div className='App'>
 
-          </Routes>
-        </div>
+        {/* rendering Header component*/}
+          <Header/>
+
+          {/* using Switch for correct component rendering*/}
+          <Switch>
+            {/* routing the homepage*/}
+            <Route exact path="/"> 
+              <Home />
+            </Route>
+            {/* Routing the project page*/}
+            <Route path="/project">
+              <Project />
+            </Route>
+              {/* contact page routing */}
+            <Route path="/contact">
+             <Contact />
+            </Route>
+          </Switch>
+      </div>
     </Router>
   );
 }
 
 export default App;
+
+
+
+
 
 
 
