@@ -4,7 +4,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Project from './pages/Project';
+import Gallery from './components/Gallery';
 import Header from './components/Header';
 
 function App() {
@@ -22,9 +22,9 @@ function App() {
             <Route exact path="/"> 
               <Home />
             </Route>
-            {/* Routing the project page*/}
+            {/* Routing the project gallery page*/}
             <Route path="/project">
-              <Project />
+              <Gallery />
             </Route>
               {/* contact page routing */}
             <Route path="/contact">
