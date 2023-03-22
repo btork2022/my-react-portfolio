@@ -16,7 +16,7 @@ function App() {
         {/* rendering Header component*/}
           <Header/>
 
-          {/* using Switch for correct component rendering*/}
+          {/* using Routes for correct component rendering*/}
           <Routes>
             {/* routing the homepage*/}
             <Route path="/" element={<Home />} />
