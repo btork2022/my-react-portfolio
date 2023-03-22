@@ -17,6 +17,7 @@
   
   .navbar {
     display: flex;
+    flex-direction: row;
   }
   
   /* applying styles to the navbar-link class */
