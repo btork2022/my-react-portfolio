@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "title": "1: Team Profile Generator",
+      "description": "This application is based on Node.js command-line that allows the entry of information about software-engineer team members. It outputs a generated HTML webpage which displays details of each individual. Being object-oriented in design, Inquirer package for prompting user inputs and testing with Jest package are utilised.",
+      "image": "../assets/images/team profile output.png",
+      "deployedLink": "pending",
+      "githubLink": "https://github.com/btork2022/Team_Profile_Generator"
+    },
+    {
+      "id": 2,
+      "title": "2: Pro-README Generator",
+      "description": "Professional README Generator design.",
+      "image": "../assets/images/pro_README_GEN  fullGIF.gif",
+      "deployedLink": "pending",
+      "githubLink": "https://github.com/btork2022/Pro-README-Generator"
+    },
+    {
+      "id": 3,
+      "title": "3: Calender-Workday-scheduler",
+      "description": "This application is designed for the purpose of convenient daily planning of hourly work period; in order to keep track of events of the day.",
+      "image": "../assets/images/calender scheduler.png",
+      "deployedLink": "https://btork2022.github.io/Calender-Workday-scheduler/",
+      "githubLink": "https://github.com/btork2022/Calender-Workday-scheduler"
+    },
+    {
+      "id": 4,
+      "title": "4: Console-Finances",
+      "description": "This work involved creating code for analyzing the financial records of a company. The design task motivation is for creating interactive tool with javascript for financial analysis.",
+      "image": "../assets/images/console finance tool1.png",
+      "deployedLink": "https://btork2022.github.io/Console-Finances/",
+      "githubLink": "https://github.com/btork2022/Console-Finances"
+    },
+    {
+      "id": 5,
+      "title": "5: Bootstrap CSS Framework Portfolio Build",
+      "description": "This work is designed to showcase my profile as a developer. The motivation is to for visibility as my skillset in web development increases. This portfolio build would allow for subsequent updates as more web development tools are harnessed.",
+      "image": "../assets/images/bootstrap portfolio.png",
+      "deployedLink": "https://btork2022.github.io/Bootstrap-Portfolio/",
+      "githubLink": "https://github.com/btork2022/Bootstrap-Portfolio"
+    },
+    {
+      "id": 6,
+      "title": "6: Code refactoring for ease of SEO accessibility",
+      "description": "The work carried out as contained in the repository involved Code Refactoring for ease of SEO accessibility on the Horiseon webpage. Edits to the html and css codes were made by changing some html-tag-classes for more efficient html-tags",
+      "image": "../assets/images/Code_refactoring for SEO accessibility.gif",
+      "deployedLink": "https://btork2022.github.io/module-1-challenge/",
+      "githubLink": "https://btork2022.github.io/module-1-challenge/"
+    }
+  ]

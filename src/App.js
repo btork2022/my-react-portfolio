@@ -1,7 +1,7 @@
 // Importing libraries and components
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Gallery from './components/Gallery';
@@ -17,20 +17,17 @@ function App() {
           <Header/>
 
           {/* using Switch for correct component rendering*/}
-          <Switch>
+          <Routes>
             {/* routing the homepage*/}
-            <Route exact path="/"> 
-              <Home />
-            </Route>
+            <Route path="/" element={<Home />} />
+            
             {/* Routing the project gallery page*/}
-            <Route path="/project">
-              <Gallery />
-            </Route>
+            <Route path="/project" element={<Gallery />} />
+            
               {/* contact page routing */}
-            <Route path="/contact">
-             <Contact />
-            </Route>
-          </Switch>
+            <Route path="/contact" element={<Contact />} />
+            
+          </Routes>
       </div>
     </Router>
   );

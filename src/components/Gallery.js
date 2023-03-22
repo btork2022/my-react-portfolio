@@ -1,7 +1,7 @@
 import React from 'react';
-import Project from './Project';
-import projectData from '../projectData.json';
-import './Gallery.css';
+import Project from '../pages/Project';
+import projectData from '../data/projectData.json';
+import '../styles/Gallery.css';
 
 function Gallery() {
   return (
