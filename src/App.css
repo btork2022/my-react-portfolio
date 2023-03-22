@@ -1,3 +1,4 @@
+/* setting styles for the App component */
 .App {
   text-align: center;
   background-image: url("https://images.unsplash.com/photo-1608306448197-e83633f1261c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
@@ -5,17 +6,22 @@
 }
 
 
+/* styling the logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+
+/* animating the logo for supporting browsers */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+
+/* styling the header */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,10 +33,14 @@
   color: white;
 }
 
+
+/* styling the link */
 .App-link {
   color: #61dafb;
 }
 
+
+/* animating the logo */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -39,3 +49,4 @@
     transform: rotate(360deg);
   }
 }
+

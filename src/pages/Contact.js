@@ -22,9 +22,9 @@ function Contact() {
 
       {/* Contact information */}
       <div className="contact-info">
-        <p>Email: example@example.com</p>
-        <p>Phone: 123-456-7890</p>
-        <p>Address: 123 Main St, Anytown USA</p>
+        <p>Email: bentork2010@gmail.com</p>
+        <p>LinkedIn: https://www.linkedin.com/in/benjamin-t-54103334/</p>
+        <p></p>
       </div>
     </div>
   );

@@ -1,0 +1,30 @@
+/* applying styles to the home-container class */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* applying styles to the home-image class */
+  .home-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* applying styles to the home-brand-statement class */
+  .home-brand-statement {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* applying styles to the home-portfolio class */
+  .home-portfolio {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  

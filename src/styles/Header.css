@@ -1,0 +1,35 @@
+/* applying styles to the header-contain */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* applying styles to the header-title class */
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  
+  .navbar {
+    display: flex;
+  }
+  
+  /* applying styles to the navbar-link class */
+  .navbar-link {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  /* applying styles for hover over */
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
