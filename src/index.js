@@ -1,7 +1,7 @@
 import React from 'react'; // importing the React library
 import ReactDOM from 'react-dom'; // import the ReactDOM library
 import './index.css'; // importing the global styles
-import App from './src/App'; // importing the App component
+import App from './App'; // importing the App component
 import reportWebVitals from './reportWebVitals';
 
 // Rendering the App component in the root HTML doc
