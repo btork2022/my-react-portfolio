@@ -9,7 +9,7 @@ function Home() {
         <h1>Ben Torkornoo</h1>
         <img
           src="../assets/img/IMG-1977.JPG"
-          alt="John Doe"
+          alt="Ben T."
           className="headshot"
         />
       </div>
