@@ -1,34 +1,34 @@
-/* applying styles to the header-contain */
-.header-container {
+/* applying styles to the header container */
+.container {
+    width: fit-content;
+    height: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    background-color: #333;
+    /* align-items: center; */
+    background-color: transparent;
     color: #fff;
-    padding: 20px;
+    /* padding: 20px; */
   }
   
   /* applying styles to the header-title class */
-  .header-title {
+  .logo {
+    /* font-size: 24px; */
+    /* font-weight: bold; */
+  }
+  
+    
+  /* applying styles to the navbar links class */
+  .nav-links {
     font-size: 24px;
-    font-weight: bold;
-  }
-  
-  
-  .navbar {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  /* applying styles to the navbar-link class */
-  .navbar-link {
     color: #fff;
     margin-right: 10px;
-    text-decoration: none;
+    /* text-decoration: none; */
   }
   
   /* applying styles for hover over */
-  .navbar-link:hover {
+  .nav-links:hover {
+    color: rgb(248, 75, 13);
     text-decoration: underline;
   }
   

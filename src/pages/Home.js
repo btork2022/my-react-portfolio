@@ -7,18 +7,19 @@ function Home() {
       {/* Name and headshot */}
       <div className="name-container">
         <h1>Ben Torkornoo</h1>
-        <img
+        {/* <img
           src="../assets/img/IMG-1977.JPG"
           alt="Ben T."
           className="headshot"
-        />
+        /> */}
+        <img src={require("../assets/img/IMG-1977ed1.png")} className="headshot"/>
       </div>
       {/* My Brand statement*/}
       <div className="brand-container">
         <p className="brand-statement">
           I am a Front-end web developer with experience in React, Node.js, Javascript, CSS & HTML.
         </p>
-        <p className="portfolio-indicator">
+        <p className="portfolio">
           Welcome to my portfolio website!
         </p>
       </div>
